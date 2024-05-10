@@ -1,11 +1,17 @@
-import React from 'react';
+import Navbar from "./components/Navbar";
+import Highlights from "./components/Highlights";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    //main section for website
+    <main className="bg-black">
+      <Navbar />
+      <Highlights />
+      <Hero />
+
+    </main>
   )
 }
-
+ 
 export default App
